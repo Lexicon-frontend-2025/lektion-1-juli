@@ -12,11 +12,11 @@ interface Pokemon {
 interface Pokemon {
     isCute?: boolean;
 }
-
+//extend interface
 interface CutePokemon extends Pokemon {
     isNice?: boolean;
 }
-
+//deklarera objekt med interfacet Pokemon som typ
 const bulbasaur: Pokemon = {
     name: "Bulbasaur",
     type: ["grass"],
